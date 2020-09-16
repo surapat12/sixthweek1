@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<math.h>
 void square(int n)
 {
 	int x,y;
@@ -17,6 +18,8 @@ int main()
 	printf("Enter the number : ");
 	scanf_s("%d", &a);
 	square(a);
+	int area = pow(a, 2);
+	printf("The area is %d", area);
 
 
 	return 0;
